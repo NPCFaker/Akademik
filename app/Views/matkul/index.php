@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1 class="mt-2">Daftar Mata Kuliah</h1>
+            <h2 class="mt-2">Daftar Mata Kuliah</h2>
             <table class="table">
                 <thead>
                     <tr>
@@ -15,7 +15,6 @@
                         <th scope="col">Semester</th>
                         <th scope="col">SKS</th>
                         <th scope="col">Aksi</th>
-
                     </tr>
                 </thead>
                 <tbody>

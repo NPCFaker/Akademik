@@ -1,20 +1,35 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="navbar-brand"><b>Derry Davinci</b></a>
-                    <a class="nav-link active" aria-current="page" href="<?= base_url('/'); ?>">Home</a>
-                    <a class="nav-link" href="<?= base_url('/pages/about'); ?>">About</a>
-                    <!-- <a class="nav-link" href="<?= base_url('/pages/contact'); ?>">Contact</a> -->
-                    <a class="nav-link" href="<?= base_url('/mahasiswa'); ?>">Mahasiswa</a>
-                    <a class="nav-link" href="<?= base_url('/dosen'); ?>">Dosen</a>
-                    <a class="nav-link" href="<?= base_url('/matkul'); ?>">Mata Kuliah</a>
-                </div>
-            </div>
+<!-- Sidebar -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-laugh-wink"></i>
         </div>
-    </div>
-</nav>
+        <div class="sidebar-brand-text mx-3">CI 4 WEB 2</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+    <li class="nav-item">
+        <a class="nav-link" href="/mahasiswa">
+            <i class="fas fa-user-graduate"></i>
+            <span>MAHASISWA</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/dosen">
+            <i class="fas fa-user-tie"></i>
+            <span>DOSEN</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/matkul">
+            <i class="fas fa-book"></i>
+            <span>MATA KULIAH</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/pages/about">
+            <i class="fas fa-address-book"></i>
+            <span>ABOUT ME</span></a>
+    </li>
+</ul>
+<!-- End of Sidebar -->
